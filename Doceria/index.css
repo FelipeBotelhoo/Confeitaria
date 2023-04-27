@@ -1,0 +1,715 @@
+/**MENU****/
+
+.navbar {
+    background: rgba(17, 17, 17, 0.767);
+    color: white;
+}
+.navbar-brand:hover {
+    color: white;
+    }
+.navbar-brand {
+    font-size: 2.3rem;
+    color: white;
+    font-family: 'Dancing Script', cursiva;
+}
+
+.nav-link {
+    margin-top: -40px;
+    margin-right: 10px;
+    position: relative;
+    margin-left: 10px;
+    color: rgb(250, 248, 248);
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    padding: 0 10px;
+}
+
+.nav-link:hover {
+    color: rgb(255, 254, 254);
+}
+
+.nav-link:after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background-color: #B45AD4;
+    left: 0;
+    bottom: 0;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #B45AD4;
+}
+
+.nav-link:hover:after {
+    width: 100%;
+}
+
+.search {
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid #B45AD4;
+    margin-right: -35px;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.btnMenu {
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color: #B45AD4;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+#icone-login {
+    color: #B45AD4;
+    font-size: 30px;
+    margin: 25px;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+/** FIM MENU****/
+
+
+/****HOME****/
+.paralax section {
+    height: 290px;
+    /*  efeitoParalax tela IniciAl */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 2px;
+}
+
+#ss,
+.video {
+    background-image: url("./img/download_edited.png ");
+}
+
+.paralax #faixa {
+    background-color: #c175dd9c;
+}
+
+.linha-titulo {
+    margin-top: -140px;
+}
+
+.paralax section h1 {
+    text-align: center;
+    padding: 40px 4%;
+    font-size: 120px;
+    color: #ffffff;
+    font-family: 'Dancing Script', cursiva;
+}
+
+.paralax section p {
+    text-align: center;
+    color: #fffefe;
+    margin-top: -120px;
+}
+
+.paralax section:nth-of-type(1) {
+    background-image: url("./img/imgHome.webp");
+}
+
+.paralax section:nth-of-type(3) {
+    background-image: url("./img/imgHome.webp");
+}
+
+.paralax section:nth-of-type(4) {
+    background: url("./img/video.mp4");
+}
+
+.div-faixa {
+    margin-top: 150px;
+    background-color: #c175dd9c;
+    margin-bottom: 150px;
+}
+
+.campo {
+    color: white;
+    margin-top: 80px;
+    font-size: 80px;
+    justify-content: center;
+    text-align: center;
+}
+
+.texto4 {
+    font-family: 'Dancing Script', cursiva;
+}
+
+.video {
+    width: 100%;
+}
+
+#video1 {
+    margin-top: -100px;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    border-radius: 30rem 80rem 30rem;
+}
+
+
+.produtos {
+    margin-top: 250px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.div-imgProdutos {
+    width: 50rem;
+    height: 20rem;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.imgIcone {
+    height: 130px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+/* TITULO NOSSOS PRODUTOS */
+.tituloProduto {
+    color: #B45AD4;
+    text-align: center;
+    font-family: 'Dancing Script', cursiva;
+    font-size: 40px;
+}
+
+.titulo-video {
+    color: #B45AD4;
+    background-color: #f5f5f5;
+    text-align: center;
+    font-family: 'Dancing Script', cursiva;
+    font-size: 70px;
+}
+
+/****FIM HOME****/
+
+
+/***LOGIN****/
+.container-login {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  lado da imagem - lado esquerdo  */
+.logo-login {
+    width: 90%;
+}
+
+/*  lado do login - lado direito */
+.ladoDireito {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: rgba(17, 17, 17, 0.767);
+    border-radius: 100px;
+    box-shadow: 0px 10px 40px #00000056;
+    font-family: 'rubik';
+}
+
+.card-login>h1 {
+    color: #ffffff;
+    font-weight: 000;
+    margin: 4px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+
+.ladoEsquerdo {
+    width: 80%;
+    margin-top: 80px;
+}
+
+.form1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.form1>input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: white;
+    color: black;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #89a5e956;
+    outline: none;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+
+.form1>a {
+    color: #fff;
+}
+
+.form1>a:hover {
+    color: #e0e0e0;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: #B45AD4;
+    color: #ffffff;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #ffffff52;
+}
+
+.btn-login:hover {
+    background-color: #c175dd;
+    color: white;
+}
+
+
+
+/*******TABELA ADMIN*******/
+#icone-sair {
+   font-size: 30px;
+   color: white;
+ 
+   
+}
+
+.tabela-container{
+    padding: 0 10%;
+    margin: 40px auto 0;
+}
+.titulo-admin{
+    font-size: 62px;
+    text-align: center;
+    color: #ffffff;
+  margin-bottom: 40px;
+  font-family: 'Dancing Script', cursiva;
+}
+
+.subtitulo-adm{
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+  margin-bottom: 40px;
+}
+.tabela{
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+   
+}
+
+.tabela thead{
+    background: rgba(17, 17, 17, 0.767);
+  
+}
+.tabela thead tr th{
+    font-size: 14px;
+    font-weight:600;
+    letter-spacing: 0.35px;
+    color: #ffffff;
+    opacity: 1;
+    padding: 12px;
+    vertical-align: top;
+    border: 1px solid #B45AD4;
+}
+
+.tabela tbody tr td{
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #B45AD4;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid black;
+    
+}
+
+.table .text_open{
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.35px;
+    color: #fff;
+}
+.tabela tbody tr td .btn-admin{
+    width: 130px;
+    text-decoration: none;
+    line-height: 35px;
+    display: inline-block;
+    background-color: #ffffff;
+    font-weight: medium;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid black;
+    font-size: 15px;
+    opacity: 1;
+    border-radius: 25px;
+    font-family: 'Rubik', sans-serif;
+}
+.tabela tbody tr td .btn-admin:hover {
+    background-color: #e4acf8;
+    color: white;
+    border: 1px solid white;
+}
+
+.desc-admin{
+    max-width: 20ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/******* FIM TABELA ADMIN*******/
+
+
+/** FORMULARIO***/
+.formulario {
+    padding: 50px;
+    width: 80%;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+    align-items: center;
+    justify-content: center;
+}
+
+.area-texto textarea {
+    margin-top: -120px;
+    resize: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+    float: right;
+    border: 1px solid #B45AD4;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.form-titulo .titulo {
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: 'Dancing Script', cursiva;
+    font-size: 35px;
+    letter-spacing: 0.1rem;
+}
+
+.form-titulo .titulo h1::after {
+    content: '';
+    display: block;
+    width: 6rem;
+    height: 0.3rem;
+    background-color: #B45AD4;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.form {
+    border-radius: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 3rem;
+
+}
+
+
+.input-caixa,
+select {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-caixa input,
+select {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.9rem;
+}
+
+.input-caixa input:hover,
+select:hover {
+    background-color: #eeeeee75;
+}
+
+.input-caixa input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+    outline: 1px solid #B45AD4;
+}
+
+.input-caixa label,
+select {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.input-caixa input::placeholder {
+    color: #000000be;
+}
+
+.pedido-button button {
+      border: none;
+    background-color: #c175ddaf;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pedido-button button:hover {
+    background-color: #B45AD4;
+}
+
+.pedido-button button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+}
+.form-admin-btn button{
+    margin-top: 10px;
+    border: none;
+    background-color: #c175ddaf;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    .form-admin-btn button a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    }
+    .area-texto-suporte textarea{
+        resize: none;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+        border: 1px solid #B45AD4;
+        border-radius: 20px;
+        
+    }
+/******** CONFIGURAÇÃO RODAPÉ**********/
+
+footer {
+    color: white;
+    bottom: 0px;
+    width: 100%;
+    background: rgba(17, 17, 17, 0.767);
+}
+
+.main-content {
+    display: flex;
+}
+
+.main-content .box {
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.box h2 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box .content {
+    margin: 20px 0 0 0;
+    position: relative;
+}
+
+.box .content:after {
+    position: absolute;
+    content: '';
+    width: 15%;
+    height: 2px;
+    background: #B45AD4;
+    top: -10px;
+}
+
+.box .content:before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: #B45AD4;
+    top: -10px;
+}
+
+.left .content .social {
+    margin: 20px 0 0 0;
+
+}
+
+.left .content .social a {
+    padding: 0 2px;
+    color: white;
+}
+
+.left .content .social a span {
+    width: 40px;
+    height: 40px;
+    background: #B45AD4;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.left .content .social a span:hover {
+    background: #e4acf8;
+    color: #222222;
+
+}
+
+.left .content p {
+    text-align: justify;
+}
+
+.center .content .fas {
+    font-size: 23px;
+    background: #B45AD4;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+
+.center .content .fas:hover {
+    background: #e4acf8;
+    color: #222222;
+}
+
+.center .content .text {
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.center .content .phone {
+    margin: 10px 0;
+}
+
+.center .content .msg {
+    margin-top: 10px;
+}
+
+.right form input,
+.right form textarea {
+    width: 100%;
+    font-size: 17px;
+    background: #f5f2f7;
+    padding-left: 10px;
+    border: 1px solid #222222;
+    border: none;
+    resize: none;
+    border-radius: 5px;
+}
+
+.right form input {
+    height: 35px;
+}
+
+.right form input:focus,
+.right form textarea:focus {
+    outline-color: #B45AD4;
+}
+
+.right form .text {
+    font-size: 17px;
+    margin-bottom: 2px;
+    color: #ffffff;
+}
+
+.right form .btn-rodape {
+    margin-top: 10px;
+}
+
+.right form .btn-rodape button {
+    height: 40px;
+    width: 30%;
+    background: #B45AD4;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+
+.right form .btn-rodape button:hover {
+
+    background: #e4acf8;
+    color: black;
+}
+
+.bottom .center {
+    padding: 5px;
+    font-size: 15px;
+    background: #B45AD4;
+    text-align: center;
+}
+
+.bottom .center span {
+    color: #ffffff;
+}
+
+.bottom .center a {
+    color: #ffffff;
+    text-decoration: none;
+}
