@@ -43,3 +43,6 @@ Todas as informações enviadas por meio dessa página serão visualizadas pelo 
 É importante destacar que o projeto está em andamento e atualmente só realiza as operações de </br>
 INSERT, READ e UPDATE. </br> 
 A conexão com o banco de dados é feita por meio do PDO.
+
+
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=%20Andamento&color=GREEN&style=for-the-badge)
