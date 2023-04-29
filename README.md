@@ -44,5 +44,5 @@ Todas as informações enviadas por meio dessa página serão visualizadas pelo 
 INSERT, READ e UPDATE. </br> 
 A conexão com o banco de dados é feita por meio do PDO.
 
-
+</br></br>
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=%20Andamento&color=GREEN&style=for-the-badge)
