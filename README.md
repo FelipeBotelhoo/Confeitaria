@@ -2,6 +2,12 @@
 
 Projeto Pessoal em desenvolvimento para uma doceria, </br> com o objetivo de gerenciar informações  sobre eventos e </br> outras atividades da empresa.
 </br></br>
+
+https://user-images.githubusercontent.com/121906659/235321998-1baf2110-b6fe-4482-9aec-ffd0b9c5b9bb.mp4
+
+</br></br>
+
+
 ## Pré-requisitos
 Antes de começar, é necessário ter as seguintes</br>
 ferramentas instaladas em sua máquina:
