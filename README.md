@@ -8,7 +8,7 @@ https://user-images.githubusercontent.com/121906659/235321998-1baf2110-b6fe-4482
 </br></br>
 
 
-## Pré-requisitos
+## Pré-requisitos *⃣
 Antes de começar, é necessário ter as seguintes</br>
 ferramentas instaladas em sua máquina:
 
@@ -19,30 +19,30 @@ ferramentas instaladas em sua máquina:
 3. Crie um Banco chamado "doceria" e realize a importação do arquivo SQL presente no código.
 </br></br>
 
-**É importante ter o banco de dados "doceria" criado e o arquivo SQL fornecido importado.**
+**🔹É importante ter o banco de dados "doceria" criado e o arquivo SQL fornecido importado.**
 
 
-## Instalação
+## *⃣Instalação
 Para utilizar o projeto, basta clonar o repositório para a pasta desejada em seu servidor web.</br>
 Certifique-se de que as permissões de acesso aos arquivos estejam corretas. </br>
 
-## Utilização
+## Utilização*⃣
 Ao acessar a página inicial (index), é possível enviar uma mensagem para que o administrador possa ler posteriormente.</br>
 Além disso, há uma página específica para solicitar um evento de bolo. </br>
 Todas as informações enviadas por meio dessa página serão visualizadas pelo administrador.
 
-**O usuário padrão para acessar as informações é "admin" e a senha é "admin".**
+**🔹O usuário padrão para acessar as informações é "admin" e a senha é "admin".**
 
-## Ferramentas Utilizadas
+## *⃣Ferramentas Utilizadas
 ![image](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) </br>
 ![image](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)</br>
 ![image](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)</br>
 ![image](https://img.shields.io/badge/Apache-CA2136?style=for-the-badge&logo=apache&logoColor=white)</br>
 ![image](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)</br>
 
-É importante destacar que o projeto está em andamento e atualmente só realiza as operações de </br>
-INSERT, READ e UPDATE. </br> 
-A conexão com o banco de dados é feita por meio do PDO.
+🔹É importante destacar que o projeto está em andamento e atualmente só realiza as operações de </br>
+  INSERT, READ e UPDATE. </br> 
+🔹A conexão com o banco de dados é feita por meio do PDO.
 
 </br></br>
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=%20Andamento&color=GREEN&style=for-the-badge)
